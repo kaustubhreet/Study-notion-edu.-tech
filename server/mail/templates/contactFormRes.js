@@ -74,7 +74,7 @@ exports.contactUsEmail = (
   
   <body>
       <div class="container">
-          <a href="https://EductionSite-edtech-project.vercel.app"><img class="logo"
+          <a href="http://localhost:3000"><img class="logo"
                   src="https://i.ibb.co/7Xyj3PC/logo.png" alt="EductionSite Logo"></a>
           <div class="message">Contact Form Confirmation</div>
           <div class="body">
