@@ -14,7 +14,7 @@ const mailSender = async (email, title, body) => {
     })
     //console.log(process.env.MAIL_HOST);
     let info = await transporter.sendMail({
-      from: `"EductionSite | CodeHelp" <${process.env.MAIL_USER}>`, // sender address
+      from: `"EductionSite " <${process.env.MAIL_USER}>`, // sender address
       to: `${email}`, // list of receivers
       subject: `${title}`, // Subject line
       html: `${body}`, // html body
